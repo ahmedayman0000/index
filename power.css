@@ -1,0 +1,309 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+} 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .ooo a{
+     text-decoration:none;
+     color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  .pho{
+    width: 100%;
+    height: 450px;
+  }
+
+
+  .header{
+    background-color: rgb(201, 201, 201);
+    height: 100vh;
+    color: black;
+    margin-top: 50px;
+    padding: 45px;
+    text-align: center;
+    
+  }
+
+  .write h1{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 150px;
+  }
+
+  .imggg img{
+    width: 600px;
+   height: 500px;
+   border-radius: 10px;
+
+  }
+
+  /* service */
+.web{
+    background-color: grey;
+    color: #000;
+    margin-top:50px ;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.im{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    align-items: center;
+   padding-top: 30px;
+    
+}
+
+.im h1{
+    color: rgb(0, 0, 0);
+    margin-top: 30px; 
+    font-weight: 800;
+    
+}
+
+.im h1 span{
+    color: blue;
+}
+
+
+.im img{
+    width: 170px;
+    height: 90px;
+    /* margin: auto; */
+}
+
+
+
+.md{
+    background-color: rgb(225, 230, 230);
+    margin: 25px;
+    padding: 15px;
+   
+}
+
+
+.md .row{
+    /* column-gap: 1rem; */
+    row-gap: 4rem;
+
+}
+
+
+.md .row h4{
+    margin-top: 20px;
+}
+
+
+.md .row p{
+      margin-top: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 17px;
+      font-weight: 700;
+
+}
+
+.text{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.text img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+
+.text img:hover{
+    transform: scale(1.2);
+   box-shadow: 10px 10px 10px grey;
+}
+/* service */
+
+/*  food  */
+
+.food{
+  height: 100vh;
+  background-color: darkolivegreen;
+  color: #000;
+  margin-top: 70px;
+  
+}
+
+.food h1{
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 800;
+}
+
+.eat h3{
+  margin-top: 150px;
+  padding-left: 20px;
+  line-height: 40px;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.eet img{
+  width: 587px;
+  height: 400px;
+  margin-top: 70px;
+  border-radius: 15px;
+}
+
+
+/*  food  */
+
+.aa .btn:hover{
+  background-color: #000;
+  color: blanchedalmond;
+}
+
+
+.aa .btn  {
+  border: 1px black solid;
+  background-color: blue;
+  color: #000;
+}
+
+
+.box{
+  background-color: darkgrey;
+  color: #000;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 30px;
+  height: 80vh;
+  
+}
+
+.box h1{
+ 
+  padding: 30px 0 30px 0;
+
+}
+
+.box input{
+ 
+  margin-bottom: 20px;
+  
+}
+
+.box .in{
+  width: 500px;
+  border: solid 2px gray;
+  border-radius: 5px;
+}
+
+.box hr{
+
+ margin-bottom: 80px;  
+}
+
+.box .pu{
+  margin-left: 25px;
+  
+}
+
+.box button{
+  background-color: rgb(105, 80, 80);
+  color: #000000;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer h1{
+  font-size: smaller;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 575px){
+  .imggg img{
+    width: 350px;
+    height: 400px;
+   border-radius: 10px;
+  
+
+  }
+
+  .write h1{
+
+    font-size: 23px;
+    margin-top: 90px;
+    }
+  
+
+  .imggg{
+   text-align: center;
+  }
+
+  .eat h3{
+    margin-top: 50px;
+    font-size: 20px;
+    
+  }
+
+  .eet img{
+    width: 400px;
+    height: 260px;
+    
+    border-radius: 15px;
+  }
+
+
+  .box .in{
+    width: 250px;
+    border: solid 2px gray;
+    border-radius: 5px;
+
+}
+}

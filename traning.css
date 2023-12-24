@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.tra{
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(198, 204, 204);
+    color: black;
+    padding-bottom: 40px;
+
+}
+
+.tra h1{
+    font-size: 50px;
+    font-weight: 800px;
+    margin-bottom: 50px;
+}
+
+.tra p{
+    margin-top: 150px;
+    line-height: 30px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+
+.tra a{
+    text-decoration: none;
+    color: red;
+    
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+    .tra h1{
+        font-size: 25px;
+        
+        font-weight: 800px;
+        margin-bottom: 50px;
+    }
+
+    .tra{
+        width: 100%;
+    }
+
+    .tra img{
+        width: 350px;
+        height: 550px;
+    }
+
+}
